@@ -12,6 +12,7 @@ body{
 
     margin-right: 50px;
     margin-top: 100px;
+    margin-right: 50px;
 }
 .navber{
    justify-content: space-between;
@@ -79,8 +80,8 @@ body{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 200px;
-    margin-left: 165px;
-    margin-right: 165px;
+     margin-left: 50px;
+    
     border: 1px solid rgba(255, 255, 255, 0.186);
     padding: 60px;
     border-radius: 15px;
@@ -98,27 +99,73 @@ width: 300px;
 padding: 20px;
 margin-top: 50px;
 border-radius: 15px;
-box-shadow: 2px 2px 2px 3px #0000001e ;
+box-shadow: 2px 2px 2px 9px #0000001e ;
 }
 .all-card{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 165px;
-    margin-right: 165px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 130px;
+    margin-right: 130px;
     padding: 60px;
     justify-items: center;
+    gap: 40px;
    
 }
 .gray-bold{
     color: rgba(120, 120, 133, 1);
     font-weight: 600;
 }
-@media screen and (max-width: 576px) {
-    .header-container  {
-        flex-direction: column;
-       
+.last-see-more{
+   color: #E02C6D;
+   font-weight: 600;
+   justify-items: end;
+   margin-right: 280px;
+}
+.Features{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+}
 
-       
+.right-Featured{
+    margin-left: 100px;
+}
+.last-button{
+    background-color:#E02C6D;  
+    height: 55px;
+    width: 180px;
+    border: none;
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.last-button:hover{
+    background-color: brown;
+    width: 210px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   
+    .header-container  {
+        flex-direction: column;  
+    }
+    .right-Featured{
+        margin-right: 15px;
+    }
+    .Features{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -30px;
     }
     .home-header{
         font-size: 50px;

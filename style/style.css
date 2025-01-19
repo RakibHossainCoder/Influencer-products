@@ -146,10 +146,24 @@ box-shadow: 2px 2px 2px 9px #0000001e ;
     height: 60px;
 }
 
+.footer-container, .last-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-weight: 500;
+}
+.footer-container{
+    margin-top: 70px;
+    padding-top: 50px;
+}
 
-
-
-
+.last-icon{
+   margin-left: -10px;
+   gap: 30px;
+   padding: 30px;
+}
 
 
 
